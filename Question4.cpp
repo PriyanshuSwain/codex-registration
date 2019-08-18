@@ -1,4 +1,4 @@
-//PROGRAM TO FIND THE LARGEST PALLINDROME NO.FROM A 3*3 DIGIT NO.
+//PROGRAM TO FIND THE LARGEST PALLINDROME NO.FROM A 3X3 DIGIT NO.
 #include<iostream>
 using namespace std;
 #include<conio.h>
@@ -30,6 +30,6 @@ int main()
     		max=a;
   		}
  	}
- 	cout<<"The largest pallindrome from 3 digit no. is "<<max<<endl;
+ 	cout<<"The largest pallindrome from 3X3 digit no. is "<<max<<endl;
 	getch();
 }
