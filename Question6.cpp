@@ -10,9 +10,6 @@ int main()
 	for(i=1;i<=100;i++)
 	{
 		sum=sum+(i*i);
-	}
-	for(i=1;i<=100;i++)
-	{
 		sum1=sum1+i;
 	}
 	sum1=sum1*sum1;
