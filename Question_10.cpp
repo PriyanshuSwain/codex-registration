@@ -22,7 +22,7 @@ bool primeno(long long p)
 int main()
 {
 	system("cls");
-	long long a=3,sum=2;
+	long long a=2,sum=0;
 	while(a<2000000)
 	{
 		if(primeno(a))
