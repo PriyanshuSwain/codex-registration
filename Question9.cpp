@@ -1,4 +1,4 @@
-//PROGRAM TO PYTHAGORIAN TRIPLET. 
+//PROGRAM TO FIND PYTHAGORIAN TRIPLET. 
 #include<iostream>
 using namespace std;
 #include<conio.h>
