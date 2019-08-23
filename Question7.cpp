@@ -24,7 +24,7 @@ int main()
 	system("cls");
     long a=2,b=0;
     int ctr=0;
-    while(1==1)
+    while(true)
 	{
 		if(ctr==10001)
 		{
