@@ -14,9 +14,9 @@ int main()
 		unsigned long product=1;
 		for(j=i;j<13;j++)
 		{
-			product=product*(arr[j]-'0');
+			product=product*(arr[j]);
 		}
-		if (product>=a)
+		if (a<=product)
 		{
 			a=product;
 		}
