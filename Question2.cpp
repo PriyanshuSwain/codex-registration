@@ -6,14 +6,7 @@ using namespace std;
 int main()
 {
 	system("cls");
-  	long long n;
-  	cout<<"Enter the Number to which you will add the fibbonacci ";
-  	cin>>n;
-  	if(n<2)
-  	{	
-   		exit (0);
-  	}
- 	long long a=1,b=2,sum=0,c=0;
+  	long long n=4000000,a=1,b=2,sum=0,c=0;
  	while(1==1)
   	{
    		if(a>=n)
@@ -22,7 +15,7 @@ int main()
      	sum=sum+a;
    		c=a+b;
    		a=b;
-  		 b=c;
+  		b=c;
   	}	
  	cout<<"Sum of even fibbonacci numbers upto "<<n<<" = "<<sum;
 	getch();
