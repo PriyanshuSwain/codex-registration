@@ -6,9 +6,7 @@ using namespace std;
 int main()
 {
 	system("cls");
-	long long i=0;
-	long long n=600851475143;
-	long long a=n;
+	long long n=600851475143,i,a=n;
 	for(i=2;i<=n;i++)
 	{
  		if(n%i==0)
