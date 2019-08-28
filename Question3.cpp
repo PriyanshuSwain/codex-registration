@@ -3,14 +3,11 @@
 using namespace std;
 #include<conio.h>
 #include<stdlib.h>
-#include<math.h>
 int main()
 {
 	system("cls");
 	long long i=0;
-	long long n;
-	cout<<"Enter the number whose prime factor is to be found ";
-	cin>>n;
+	long long n=600851475143;
 	long long a=n;
 	for(i=2;i<=n;i++)
 	{
