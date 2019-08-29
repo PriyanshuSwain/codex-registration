@@ -6,10 +6,6 @@ using namespace std;
 #include<math.h>
 bool primeno(long long p)
 {
-	if (p>2 && p%2==0)
-	{
-		return false;
-	}
 	for(long long i=3;i <= (long long)sqrt(p); i=i+2) 
 	{
 		if (p % i == 0) 
@@ -22,11 +18,13 @@ bool primeno(long long p)
 int main()
 {
 	system("cls");
-	long long a=2,sum=0;
+	long long a=3,sum=2;
 	while(a<2000000)
 	{
+		if(a%2==0)
+			a++;
 		if(primeno(a))
-		sum=sum+a;
+			sum=sum+a;
 		a++;
 	}
 	cout<<"Sum of first 2000000 prime nos. is = "<<sum<<endl;
