@@ -6,14 +6,11 @@ using namespace std;
 int main()
 {
 	system("cls");
-	int i,sum=0,sum1=0,diff=0;
-	for(i=1;i<=100;i++)
-	{
-		sum=sum+(i*i);
-		sum1=sum1+i;
-	}
-	sum1=sum1*sum1;
-	diff=sum1-sum;
-	cout<<"The difference between the sum of the squares of first 100 natural numbers and the square of the sum is "<<diff<<endl;
+	int a=100,sum,sqsum,sqosum,diff;
+	sum=(a*(a+1))/2;
+	sqsum=(a*(a+1)*(2*a+1))/6;
+	sqosum=sum*sum;
+	diff=sqosum-sqsum;
+	cout<<"The difference is "<<diff<<endl;
 	getch();
 }
