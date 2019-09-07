@@ -18,14 +18,11 @@ bool primeno(long long p)
 int main()
 {
 	system("cls");
-	long long a=3,sum=2;
-	while(a<2000000)
+	long long a=0,sum=2;
+	for(a=3;a<2000000;a+=2)
 	{
-		if(a%2==0)
-			a++;
 		if(primeno(a))
 			sum=sum+a;
-		a++;
 	}
 	cout<<"Sum of first 2000000 prime nos. is = "<<sum<<endl;
 	getch();
