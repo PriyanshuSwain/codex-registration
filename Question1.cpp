@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
  	system("cls");
- 	int x=999;
- 	long int y,sum=0;
+ 	int x=999,sum=0;
  	for(int i=0;i<=x;i++)
  	{	
   		if((i%3==0)||(i%5==0))
@@ -15,7 +14,6 @@ int main()
    			sum=sum+i;
   		}
  	}
- 	y=sum;
- 	cout<<"The sum of multiples of 3 & 5 is "<<y;
+ 	cout<<"The sum of multiples of 3 & 5 is "<<sum;
  	getch();
 }
