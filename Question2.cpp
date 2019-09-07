@@ -7,7 +7,7 @@ int main()
 {
 	system("cls");
   	long long n=4000000,a=1,b=2,sum=0,c=0;
- 	while(1==1)
+ 	while(a<4000000)
   	{
    		if(a>=n)
      	break;
